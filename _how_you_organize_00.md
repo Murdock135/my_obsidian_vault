@@ -3,6 +3,10 @@ Organization is key for being productive. But *how you organize* depends on what
 1. **Minimize friction** between referencing and turning that reference into an actionable document e.g. referencing your work logs and using those logs for ideation.
 2. **Maximize interaction** between different document types (e.g. logs, scribbles, notes).
 Refer to [[#Scenarios to explain what I mean]] for some examples on how to do follow these principles.
+Refer to the following articles to check how you're organizing your logs, thoughts & scribbles, meeting notes.
+- [[Organizing Logs]]
+- [[Organizing Scribbles]]
+- [[Naming git repos]]
 ## Scenarios to explain what I mean:
 ### Bad scenario 1:
 You work on a project for several months. You keep your work logs in an excel sheet by indexing them by dates.
@@ -15,9 +19,4 @@ In this scenario, you may lose track of how many of the previous meeting notes y
 ### Good scenario 2:
 You take meeting notes for several notes. 
 1. You tag them in a similar way to Good scenario 1. Benefits are the same as well.
-
-
-
-## Appendix
-### Git repo naming convention
 
