@@ -1,0 +1,271 @@
+{
+  "main": {
+    "id": "532ab8c2d1b31da7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7abe95b54f67bf5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "334a658de4f7e28a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learn these/Setting up a development environment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Setting up a development environment"
+            }
+          },
+          {
+            "id": "0f8a0c0ecc37011e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learn these/Big list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Big list"
+            }
+          },
+          {
+            "id": "675c57d86d0affde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gaussian Mixture model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gaussian Mixture model"
+            }
+          },
+          {
+            "id": "add41ea502dc8cfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_start-here.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_start-here"
+            }
+          },
+          {
+            "id": "cec5bd9900f08da6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "how_you_organize_00.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "how_you_organize_00"
+            }
+          },
+          {
+            "id": "6513710cb9d89e68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "how_you_organize_00.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "how_you_organize_00"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "01e825c1665c9b62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "062b36417c73b664",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4195752d82873593",
+    "type": "split",
+    "children": [
+      {
+        "id": "923b75fcdb96b8b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82b3c27049d3f937",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "31b7fc19e87b218b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6db21ee53aef36d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4ee260e251669f3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "472d7ac7bde46f84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6f5b637d9e8097e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hard skill list.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Hard skill list"
+            }
+          },
+          {
+            "id": "04ddbd299ad5593c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hard skill list.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Hard skill list"
+            }
+          },
+          {
+            "id": "f71f77b268b0cb59",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c0347fe2d910a2d0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hard skill list.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Hard skill list"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "82b3c27049d3f937",
+  "lastOpenFiles": [
+    "_start-here.md",
+    "resources/GridFS.md",
+    "how_you_organize_00.md",
+    "resources",
+    "Learn these/Setting up a development environment.md",
+    "Learn these/Hard skill list.md",
+    "Learn these/Big list.md",
+    "Gaussian Mixture model.md",
+    "Untitled 1",
+    "Mizzou",
+    "Untitled.canvas",
+    "Notes",
+    "Learn these",
+    "Welcome.md",
+    "create a link.md",
+    "My Learning plan.md"
+  ]
+}
