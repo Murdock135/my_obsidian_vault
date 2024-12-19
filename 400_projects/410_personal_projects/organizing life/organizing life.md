@@ -1,8 +1,10 @@
 # Milestones
 - [ ] #milestone Go through LDP
+- [ ] #milestone Go through MFI (uwi github)
 - [ ] #milestone Come up with principles and methods that help read papers. 
 	- [ ] Methodify when to deep dive into references and when to not. Set a timer?
 - [ ] #milestone Determine when to spend time on personal projects
+- [ ] #milestone Organize goodreads
 - [x] Determine how to organize work related documents
 	- [x] Meeting notes
 	- [x] Logs

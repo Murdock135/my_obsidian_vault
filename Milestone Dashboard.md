@@ -16,3 +16,7 @@ where contains(text, "#milestone")
 ## planned
 
 ## all
+```dataview
+task from "400_projects/420_professional_projects"
+where contains(text, "#milestone")
+```
