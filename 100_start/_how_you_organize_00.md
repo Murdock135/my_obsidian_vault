@@ -7,7 +7,7 @@ Refer to the following articles to check how you're organizing your logs and mee
 - [[Organizing Logs & Meeting notes]]
 - [[Organizing Scribbles]]
 - [[How to schedule paper-reading]]
-- [[Naming git repos]]
+- [[git repo naming convention]]
 ## Scenarios to explain what I mean:
 ### Bad scenario 1:
 You work on a project for several months. You keep your work logs in an excel sheet by indexing them by dates.
