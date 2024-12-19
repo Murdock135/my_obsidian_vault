@@ -3,9 +3,10 @@ Organization is key for being productive. But *how you organize* depends on what
 1. **Minimize friction** between referencing and turning that reference into an actionable document e.g. referencing your work logs and using those logs for ideation.
 2. **Maximize interaction** between different document types (e.g. logs, scribbles, notes).
 Refer to [[#Scenarios to explain what I mean]] for some examples on how to do follow these principles.
-Refer to the following articles to check how you're organizing your logs, thoughts & scribbles, meeting notes.
-- [[Organizing Logs]]
+Refer to the following articles to check how you're organizing your logs and meeting notes, thoughts, scribbles, meeting notes.
+- [[Organizing Logs & Meeting notes]]
 - [[Organizing Scribbles]]
+- [[How to schedule paper-reading]]
 - [[Naming git repos]]
 ## Scenarios to explain what I mean:
 ### Bad scenario 1:

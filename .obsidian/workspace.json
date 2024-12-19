@@ -6,111 +6,43 @@
       {
         "id": "7abe95b54f67bf5c",
         "type": "tabs",
+        "dimension": 60.269953051643185,
         "children": [
-          {
-            "id": "334a658de4f7e28a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learn these/Setting up a development environment.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Setting up a development environment"
-            }
-          },
-          {
-            "id": "0f8a0c0ecc37011e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learn these/Big list.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Big list"
-            }
-          },
-          {
-            "id": "675c57d86d0affde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gaussian Mixture model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Gaussian Mixture model"
-            }
-          },
-          {
-            "id": "add41ea502dc8cfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "__start-here.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "__start-here"
-            }
-          },
-          {
-            "id": "cec5bd9900f08da6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_how_you_organize_00.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_how_you_organize_00"
-            }
-          },
-          {
-            "id": "6513710cb9d89e68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "resources/Organizing Logs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Organizing Logs"
-            }
-          },
           {
             "id": "15f6753b8a608f4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_how_you_organize_00.md",
+                "file": "100_start/_how_you_organize_00.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "_how_you_organize_00"
             }
+          },
+          {
+            "id": "c540f07f93979c20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "400_projects/410_personal_projects/organizing life/organizing life.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "organizing life"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       },
       {
         "id": "01e825c1665c9b62",
         "type": "tabs",
+        "dimension": 39.73004694835681,
         "children": [
           {
             "id": "062b36417c73b664",
@@ -263,26 +195,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15f6753b8a608f4d",
+  "active": "c540f07f93979c20",
   "lastOpenFiles": [
-    "resources/Naming git repos.md",
-    "_how_you_organize_00.md",
-    "resources/Organizing Scribbles.md",
+    "600_resources/Task Generation.md",
+    "600_resources/Organizing Scribbles.md",
+    "600_resources/Organizing Logs & Meeting notes.md",
+    "100_start/_how_you_organize_00.md",
+    "100_start/__start-here.md",
+    "400_projects/410_personal_projects/organizing life/organizing life.md",
+    "100_start/workflow.md",
+    "400_projects/410_personal_projects/organizing life",
+    "100_start/_principles_for_your_workflow_00.md",
+    "400_projects/410_personal_projects/learn about money in general/learn about money in general.md",
+    "400_projects/410_personal_projects/learn about health in general/learn about health in general.md",
+    "400_projects/410_personal_projects/learn about money in general",
+    "300_disciplines/310_health",
+    "600_resources/NHS guidelines for physical and mental wellbeing.md",
+    "400_projects/410_personal_projects/learn about health in general",
+    "400_projects/420_professional_projects",
+    "400_projects/410_personal_projects",
+    "600_resources/Learn these/Setting up a development environment.md",
+    "600_resources/Anxiety and stress relief.md",
+    "600_resources/Learn these/Hard skill list.md",
+    "600_resources/Learn these/Big list of AI topics.md",
     "dashboard.md",
-    "__start-here.md",
-    "resources/Organizing Logs.md",
+    "600_resources/Principles for Scheduling and Routine creation.md",
+    "500_alignment",
+    "400_projects",
+    "300_disciplines",
+    "200_life",
+    "600_resources/How to schedule paper-reading.md",
+    "600_resources/Ideation and Brainstorming.md",
     "resources/Organizing Meeting notes.md",
-    "resources/GridFS.md",
-    "resources",
-    "Learn these/Setting up a development environment.md",
-    "Learn these/Hard skill list.md",
-    "Learn these/Big list.md",
+    "600_resources/Naming git repos.md",
+    "600_resources/GridFS.md",
     "Gaussian Mixture model.md",
-    "Untitled 1",
-    "Mizzou",
     "Untitled.canvas",
-    "Notes",
-    "Learn these",
     "Welcome.md",
     "create a link.md",
     "My Learning plan.md"

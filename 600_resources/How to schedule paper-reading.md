@@ -1,0 +1,4 @@
+**TLDR**: Simply tag as 'urgent', 'optional' and/or 'interesting'. Review all your papers once a month. 
+At different times, different papers take precedence in terms of importance. Sometimes you think a paper is important to read from beginning to end but they're not. Furthermore, just because you've already read a paper doesn't mean you don't have to read it again. Here are a few approaches to schedule paper-reading.
+1. **Categorize by 'abstract' and 'full'**: This method says 'keep papers in the abstract category and once you've read the abstract, if it seems important, put into the 'full' category. You should read papers in the 'full' category from beginning to end.
+2. **Tag as 'urgent' and/or 'interesting'**: Use these two tags. The actions derived from the matrix is simply read now or read later. 
