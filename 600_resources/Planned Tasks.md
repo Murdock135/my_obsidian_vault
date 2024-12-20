@@ -9,4 +9,4 @@ You should only have about 5 planned tasks at any time to prevent [[Decision Par
 
 An example of a planned task is as follows.
 
-> - [x] #task This is a planned task #planned ✅ 2024-11-26
+> - [ ] #task This is a planned task #planned

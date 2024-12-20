@@ -82,6 +82,9 @@
 
 ### Self-Development & Mindset:
 - [ ] Outliers by Malcolm Gladwell
+- [ ] ikigai by Hector Garcia and Francesc Miralles
+- [ ] Applied imagination by Alex F. Osborn
+- [ ] Slow Productivity by __
 - [ ] Talking to Strangers by Malcolm Gladwell
 - [ ] Blink by Malcolm Gladwell
 - [ ] The Scout Mindset: Why Some People See Things Clearly and Others Don’t by Julia Galef
