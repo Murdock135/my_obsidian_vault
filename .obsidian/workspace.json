@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Milestone Dashboard.md",
+                "file": "Task Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Milestone Dashboard"
+              "title": "Task Dashboard"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tasks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -222,13 +222,16 @@
   },
   "active": "9f4cb83df2a1e75f",
   "lastOpenFiles": [
-    "Task Dashboard.md",
-    "400_projects/410_personal_projects/organizing life/organizing life.md",
     "Milestone Dashboard.md",
+    "400_projects/410_personal_projects/organizing life/organizing life.md",
+    "400_projects/420_professional_projects/what_causes_salmonella/logs/12-20-2024.md",
+    "Task Dashboard.md",
+    "400_projects/410_personal_projects/optimizing dev environment/optimizing dev environment.md",
+    "400_projects/420_professional_projects/what_causes_salmonella/what_causes_salmonella.md",
+    "inbox/book list.md",
     "inbox/Dashboard for research projects.md",
     "400_projects/420_professional_projects/what_causes_salmonella/references.md",
     "400_projects/420_professional_projects/what_causes_salmonella/ramblings",
-    "400_projects/420_professional_projects/what_causes_salmonella/what_causes_salmonella.md",
     "Schedule.md",
     "inbox/Self Regulated learning.md",
     "inbox/Setting up a development environment.md",
@@ -239,7 +242,6 @@
     "400_projects/410_personal_projects/learn about health in general/learn about health in general.md",
     "400_projects/410_personal_projects/learn about brainstorming",
     "400_projects/410_personal_projects/learn about money in general/learn about money in general.md",
-    "inbox/book list.md",
     "inbox/Booklists.md",
     "inbox/Hard skill list.md",
     "inbox/Types of Knowledge consumption.md",
@@ -248,7 +250,6 @@
     "600_resources/Tasks.md",
     "inbox/Big list of AI topics.md",
     "inbox/_principles_for_your_workflow_00.md",
-    "600_resources/Planned Tasks.md",
     "400_projects/420_professional_projects/what_causes_salmonella/meeting_notes",
     "400_projects/420_professional_projects/what_causes_salmonella/logs",
     "400_projects/410_personal_projects/learn about LDP",

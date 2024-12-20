@@ -15,4 +15,4 @@
 	- [x] task generation
 
 # Tasks
-- [ ] Create a template schedule 
+- [x] #tasks Create a template schedule ✅ 2024-12-20
