@@ -21,6 +21,14 @@ path includes 410_personal_projects
 
 # Professional Project tasks
 
+## Ongoing
+
+```tasks
+not done
+description includes #ongoing
+path includes 420_professional_projects
+path does not include logs
+```
 ## All
 ```tasks
 not done

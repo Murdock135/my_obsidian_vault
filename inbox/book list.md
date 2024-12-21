@@ -108,6 +108,10 @@
 ### Artificial Intelligence:
 - [ ] Artificial Intelligence: A Modern Approach by Stuart Russell
 
+## Computer Science
+- [ ] Databases system Concepts by Avi Silberschatz, Henry F. Korth, S. Sudarshan
+- [ ] Clean code
+
 ### Philosophy:
 - [ ] Think: A Compelling Introduction to Philosophy by Simon Blackburn
 - [ ] Critical Thinking: A Student’s Introduction by Gregory Bassham
