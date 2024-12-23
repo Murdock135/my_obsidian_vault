@@ -7,7 +7,7 @@
 - [ ] Write a draft literature review.
 
 # Tasks
-- [ ] #task Scan and upload old notes 
+- [ ] #task Scan and upload old notes #planned
 - [ ] #task Read 'converting NN to rule foam paper' #ongoing
 - [ ] #task Read ellipsoidal rules
 - [ ] #task Create a synthetic dataset for classification
