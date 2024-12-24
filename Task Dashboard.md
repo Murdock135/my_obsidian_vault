@@ -29,6 +29,13 @@ description includes #ongoing
 path includes 420_professional_projects
 path does not include logs
 ```
+## Planned
+```tasks
+not done
+description includes #planned
+path includes 420_professional_projects
+path does not include logs
+```
 ## All
 ```tasks
 not done
