@@ -9,11 +9,13 @@ status: ongoing
 - [ ] #milestone Come up with principles and methods that help read papers. 
 	- [ ] Methodify when to deep dive into references and when to not. Set a timer?
 - [ ] #milestone Determine when to spend time on personal projects
-- [ ] #milestone Organize goodreads shelves. Use books from [[book list]]
+- [x] #milestone Organize goodreads shelves. Use books from [[book list]]
 - [ ] #milestone Organize zotero: tag all papers
 - [ ] #milestone Think about how to build a dashboard for research projects [[Dashboard for research projects]]
 - [ ] #milestone Set up Obsidian #ongoing
-- [ ] #milestone Learn how to use WSL
+- [x] #milestone Learn how to use WSL
+- [ ] #milestone Write documentation on how you organize everything for work
+- [ ] #milestone Write documentation on workflow.
 - [x] Determine how to organize work related documents
 	- [x] Meeting notes
 	- [x] Logs
@@ -23,4 +25,8 @@ status: ongoing
 # Tasks
 - [x] #task Create a template schedule ✅ 2024-12-20
 - [x] #task Organize onedrive #ongoing ✅ 2024-12-23
-- [ ] #task Download WSL
+- [x] #task Download WSL ✅ 2024-12-28
+- [x] #task Organize goodreads ✅ 2024-12-27
+- [ ] #task Review LDP
+- [ ] #task Read dataview documentation #ongoing 
+- [ ] #task Read Tasks documentation

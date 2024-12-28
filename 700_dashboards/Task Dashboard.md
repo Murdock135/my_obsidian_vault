@@ -1,4 +1,4 @@
-# Personal Project tasks
+# Personal Project & Disciplines tasks
 ## Ongoing
 ```tasks
 not done
@@ -16,7 +16,7 @@ path includes 410_personal_projects
 ## All
 ```tasks
 not done
-path includes 410_personal_projects
+(path includes 410_personal_projects) OR (path includes 300_disciplines)
 ```
 
 # Professional Project tasks

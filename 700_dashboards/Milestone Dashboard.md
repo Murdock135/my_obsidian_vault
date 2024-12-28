@@ -1,4 +1,4 @@
-# Personal Project Milestones
+# Personal Project and Discipline Milestones
 ## ongoing
 
 ## planned
