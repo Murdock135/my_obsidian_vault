@@ -21,3 +21,4 @@ In this scenario, you may lose track of how many of the previous meeting notes y
 You take meeting notes for several notes. 
 1. You tag them in a similar way to Good scenario 1. Benefits are the same as well.
 
+

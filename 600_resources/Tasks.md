@@ -50,3 +50,7 @@ See [[True Deadlines]].
 
 ## Duration
 <mark style="background: #D2B3FFA6;">Tasks themselves should be broken down such that they take no longer than 2 hours to complete</mark>. This 2 hour duration is an arbitrary cutoff, and is based on the idea that if a task is expected to take longer than that, there will be some [[Friction]] and reluctance to its undertaking.
+
+# Organizing different types of Tasks
+Tasks can pop up from either a personal project, a [[Disciplines|Discipline]] or a [[Projects|Project]]. Since we prioritize these differently, we need to keep tasks from these sources separately. Hence, the need for organization.
+A simple way to organize is to always have 2 separate lists in your [[Dashboards|Dashboard]], one for *personal projects and Disciplines* and another for *Professional Projects.*.
