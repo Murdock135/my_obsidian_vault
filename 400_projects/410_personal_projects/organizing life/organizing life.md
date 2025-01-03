@@ -28,5 +28,5 @@ status: ongoing
 - [x] #task Download WSL ✅ 2024-12-28
 - [x] #task Organize goodreads ✅ 2024-12-27
 - [ ] #task Review LDP
-- [ ] #task Read dataview documentation #ongoing 
+- [x] #task Read dataview documentation #ongoing ✅ 2025-01-02
 - [ ] #task Read Tasks documentation
