@@ -1,1 +1,0 @@
-- Create a database for a project and keep all datasets related to the project in that database. Note that datasets should be kept into the database *only after ensuring that they are in fact, being used*. 
