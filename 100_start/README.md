@@ -9,6 +9,7 @@ The components that I usually have to work with are-
 2. Notes, meeting notes and logs.
 4. Git Repos.
 5. Data.
+6. Journal
 ## 2.2 How I organize these components
 Organization is key for being productive. But *how you organize* depends on what your ultimate goal is and the components you work with. For example, the goal for when you're organizing house and personal documents is **indexed storage**. But the goal for when you're organizing **work** is **productivity**. We do this by following two principles - 
 1. **Minimize friction** between referencing and turning that reference into an actionable document e.g. referencing your work logs and using those logs for ideation.
@@ -43,6 +44,7 @@ But how do we make logs actionable? Firstly, logs are part of a task, which is p
 I recommend the following optional tags:
 1. \#update
 2. \#fix
+**Where I keep logs and meeting notes:** I write my logs and meeting notes under the `400_projects/projectname/logs` `400_projects/projectname/meeting_notes` and then sync these folders with a folders I keep in my project-specific directory that's not in this vault.
 ## 2.6 Component 3: Papers
 **TLDR**: Simply tag as 'urgent', 'optional' and/or 'interesting'. Review all your papers once a month. 
 At different times, different papers take precedence in terms of importance. Sometimes you think a paper is important to read from beginning to end but they're not. Furthermore, just because you've already read a paper doesn't mean you don't have to read it again. Here are a few approaches to schedule paper-reading.
@@ -59,6 +61,9 @@ The types of repos are the following
 ## 2.8 Component 5: Data
 As a researcher in AI, I always have to work with data. Usually, a project uses its exclusive set of datasets. However, it's not impossible for multiple projects to use the same dataset. So I keep all my data *flat* in the `C/documents/data/raw` folder. Once a dataset is kept here, it is immutable. This directory serves as a source of truth. 
 All processed data are kept in `data/processed`. Alongside the datasets, it is important to log all the transformation steps applied on the raw datasets to realize their processed versions. So in the `data/processed` folder, maintain a `transformations.md` file to log the transformation steps.
+
+## 2.7 Component: Journals
+Nothing special. Just keep a journal.
 # 3. Principles of working as a researcher
 - Schedule obligations first. Then engage in self imposed projects and tasks.
 - Always have a few blank sheets at hand.

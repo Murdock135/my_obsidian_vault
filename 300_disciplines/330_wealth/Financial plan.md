@@ -21,21 +21,21 @@ Below is a structured plan outlining your monthly savings and expenditures over 
 
 **Financial Plan Table:**
 
-|**Year**|**Monthly Income**|**Expenses**|**Savings for Emergency Fund**|**Savings for Trips**|**Savings for NIW**|**Savings for House Down Payment**|**Remaining for Discretionary Spending**|
-|---|---|---|---|---|---|---|---|
-|1|$2,000|$1,377|$167|$125|$125|$0|$206|
-|2|$2,000|$1,377|$0|$292|$125|$0|$206|
-|3|$2,000|$1,377|$0|$292|$125|$0|$206|
-|4|$10,000|$1,377|$0|$292|$125|$1,500|$6,706|
-|5-10|$10,000|$1,377|$0|$292|$0|$1,500|$6,831|
+| **Year** | **Monthly Income** | **Expenses** | **Savings for Emergency Fund** | **Savings for Trips** | **Savings for NIW** | **Savings for House Down Payment** | **Remaining for Discretionary Spending** |
+| -------- | ------------------ | ------------ | ------------------------------ | --------------------- | ------------------- | ---------------------------------- | ---------------------------------------- |
+| 1        | $2,000             | $1,377       | $167                           | $125                  | $125                | $0                                 | $206                                     |
+| 2        | $2,000             | $1,377       | $0                             | $292                  | $125                | $0                                 | $206                                     |
+| 3        | $2,000             | $1,377       | $0                             | $292                  | $125                | $0                                 | $206                                     |
+| 4        | $10,000            | $1,377       | $0                             | $292                  | $125                | $1,500                             | $6,706                                   |
+| 5-10     | $10,000            | $1,377       | $0                             | $292                  | $0                  | $1,500                             | $6,831                                   |
 
 **Notes:**
 
-- **Emergency Fund:** In the first year, allocate $167 per month to reach $2,000 in 12 months.
-- **Annual Trips:** Save $292 monthly to cover $3,500 annually for travel, starting from the second year.
-- **NIW Application:** Begin saving $125 monthly immediately to accumulate approximately $4,500 over three years, covering estimated costs.
-- **House Down Payment:** After the salary increase in year 4, allocate $1,500 monthly to save $60,000 in 40 months (approximately 3.3 years), aligning with your 5-year goal.
-- **Discretionary Spending:** Remaining funds can be used for shopping, entertainment, or additional savings.
+- **Emergency Fund:** In the first year, allocate $167 per month to reach $2,000 in 12 months.
+- **Annual Trips:** Save $292 monthly to cover $3,500 annually for travel, starting from the second year.
+- **NIW Application:** Begin saving $125 monthly immediately to accumulate approximately $4,500 over three years, covering estimated costs.
+- **House Down Payment:** After the salary increase in year 4, allocate $1,500 monthly to save $60,000 in 40 months (approximately 3.3 years), aligning with your 5-year goal.
+- **Discretionary Spending:** Remaining funds can be used for shopping, entertainment, or additional savings.
 
 This plan ensures that you meet your financial goals within the specified timeframes while maintaining a balanced budget for living expenses and discretionary spending. Adjustments can be made based on changes in expenses, income, or financial priorities.
 

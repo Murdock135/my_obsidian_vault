@@ -1,1 +1,0 @@
-Reference: [How I Use Obsidian For My PhD. And why you should consider using it as… | by Axel Casas, PhD Candidate | Cogni.tiva | Medium](https://medium.com/cogni-tiva/how-i-use-obsidian-for-my-phd-9e83e5af35a1)

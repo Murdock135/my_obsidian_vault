@@ -16,6 +16,7 @@ status: ongoing
 - [x] #milestone Learn how to use WSL
 - [ ] #milestone Write documentation on how you organize everything for work
 - [ ] #milestone Write documentation on workflow.
+- [ ] #milestone Set up dates plugin for logging projects
 - [x] Determine how to organize work related documents
 	- [x] Meeting notes
 	- [x] Logs
