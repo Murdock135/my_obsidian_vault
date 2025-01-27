@@ -21,4 +21,7 @@ Machine learning from theory to algorithms (Shai Shalev) (Measure theoretical)
 # Dynamic
 
 # Tasks
-- [ ] #task Create a roadmap (consider the one made in Notion)
+- [x] #task Create a roadmap (consider the one made in Notion) ✅ 2025-01-26
+- [ ] #task Create a reference sheet for fuzzy set and fuzzy inference. #planned 
+- [ ] #task Create a reference sheet for MLP
+- [ ] #task Create a reference sheet for CNNs

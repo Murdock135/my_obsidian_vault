@@ -11,8 +11,9 @@ status: ongoing
 - [ ] Write a draft literature review.
 
 # Tasks
-- [ ] #task Scan and upload old notes #planned
-- [ ] #task Read 'converting NN to rule foam paper' #ongoing
+- [x] #task Scan and upload old notes #planned ✅ 2025-01-26
+- [ ] #task Revise Fuzzy set theory #ongoing
+- [ ] #task Read 'converting NN to rule foam paper
 - [ ] #task Read ellipsoidal rules
 - [ ] #task Create a synthetic dataset for classification
 - [ ] #task Run a GNG on the synthetic dataset

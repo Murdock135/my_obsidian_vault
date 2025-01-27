@@ -12,9 +12,10 @@ status: ongoing
 # Tasks
 - [x] #task Learn CSV-langchain #ongoing ✅ 2025-01-04
 - [ ] #task Upload datasets to database
+- [ ] #task Set up system message for the agent.
 - [ ] #task Talk to Dr. A about new resource allocation project for salmonella. #planned
-- [ ] #task Talk to Dr. A about experiments to run about the LLM #planned
-- [ ] #task Talk to Dr. A about expert system. #planned
+- [ ] #task Talk to Dr. A about experiments to run about the LLM
+- [ ] #task Talk to Dr. A about expert system.
 - [x] #task Make presentation for meeting 1-15-2025 #ongoing ✅ 2025-01-23
 	- [x] #task Include dataset name in presentation. ✅ 2025-01-15
 - [x] #task Find LLM validation methods #ongoing ✅ 2025-01-15
