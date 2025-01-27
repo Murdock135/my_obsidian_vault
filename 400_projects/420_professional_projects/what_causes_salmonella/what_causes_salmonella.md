@@ -3,7 +3,7 @@ tags: project
 status: ongoing
 ---
 # Milestones
-- [ ] #milestone create agentic system.
+- [ ] #milestone Create agentic system.
 - [ ] #milestone Review Fuzzy expert system project.
 - [ ] #milestone Create Fuzzy expert system.
 - [ ] #milestone Set up an ETL infrastructure for extracting, transforming and loading data. Use APIs to download data where possible instead of downloading data.
@@ -11,7 +11,8 @@ status: ongoing
 
 # Tasks
 - [x] #task Learn CSV-langchain #ongoing ✅ 2025-01-04
-- [ ] #task Upload datasets to database
+- [ ] #task Set up a git repo for storing the data. Set up a script so that the data is downloaded into `data/` but add this directory to the `.gitignore` file so that any changes made to this folder isn't pushed to the data repository.  This will guard against others trying to manipulate the data in unwanted ways. #ongoing 
+- [ ] #task Change the `requirements.txt` file so that the requirements are platform specific. #planned
 - [ ] #task Set up system message for the agent.
 - [ ] #task Talk to Dr. A about new resource allocation project for salmonella. #planned
 - [ ] #task Talk to Dr. A about experiments to run about the LLM
