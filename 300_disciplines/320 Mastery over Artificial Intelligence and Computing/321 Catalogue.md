@@ -1,5 +1,4 @@
 
-
 # Appendix
 
 ## Books and Documentations
@@ -18,31 +17,32 @@ This is list is ever-growing.
 1. RNNs
 2. LSTMs
 3. Transformers
-4. Deep metric learning
-5. GANs
-6. ResNet
-7. KAN
-8. Bayesian Neural Net
-9. CNN
-10. C-means
-11. PCA
-12. tSNE
-13. Decision Tree
-14. Random Forest
-15. Autoencoder
-16. Bayesian Neural Network
-17. Sparse data methods
+4. ~~Large Language Models~~
+5. Deep metric learning
+6. GANs
+7. ResNet
+8. KAN
+9. Bayesian Neural Net
+10. CNN
+11. C-means
+12. PCA
+13. tSNE
+14. Decision Tree
+15. Random Forest
+16. Autoencoder
+17. Bayesian Neural Network
+18. Sparse data methods
 ## Tools
 ### 1. Dev Tools
-1. Docker
-2. Kubernetes
-3. Bash scripting
-4. Python
-5. Pandas
-6. Numpy
-7. 
+19. Docker
+20. Kubernetes
+21. Bash scripting
+22. Python
+23. Pandas
+24. Numpy
+25. Langchain
 ### 2. Data related
-1. PostgreSQL
-2. SQLAlchemy
-3. [Datahub]([The #1 Open Source Metadata Platform | DataHub](https://datahubproject.io/))
-4. 
+26. PostgreSQL
+27. SQLAlchemy
+28. [Datahub]([The #1 Open Source Metadata Platform | DataHub](https://datahubproject.io/))
+29. 

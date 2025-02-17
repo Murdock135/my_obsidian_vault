@@ -18,11 +18,23 @@ Remaining = 730
 - Selling laptop for 700
 Remaining= 30
 Plan: After selling laptop, transfer 730 into Amex.
+Edit (Feb 11): 533 remaining. Create auto payment of 53/mo
 # GPU:
 - Borrow 600 from Amex and pay at 600/10 = 60/mo
 # Samsung tablet
-- Use Amex to pay the cost (400) at 450/10 = 40/mo
+- Use Affirm to pay the cost (400) at 450/10 = 40/mo
 
 # Payments
-1. Pay 100/mo to Amex for 10 months (60/mo for GPU )
+1. Pay 110/mo to Amex for 10 months (60/mo for GPU )
 2. Pay 20/mo to dad for 6 months
+3. \*Pay 50/mo to dad for all the loans until now.
+Total = 110+20+50 = 180/mo
+
+
+# Monthly expenses
+1. Rent = 650/mo
+2. Debt = 180/mo
+3. Car insurance = 170/2 = 85
+4. Car Payments = 200
+5. School fees = 95
+Total = 650 + 180 + 85 + 200 + 95

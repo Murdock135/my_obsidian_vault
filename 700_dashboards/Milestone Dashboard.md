@@ -5,7 +5,7 @@
 
 ## all
 ```dataview
-task from "400_projects/410_personal_projects"
+task from "400_projects/410_personal_projects" OR "300_disciplines"
 where contains(text, "#milestone")
 ```
 

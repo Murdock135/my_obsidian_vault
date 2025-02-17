@@ -16,3 +16,7 @@
 2. Jumping squat
 3. Sprint
 4. Skater jumps
+
+Splits
+1. Arms + chest
+2. Legs + abs
