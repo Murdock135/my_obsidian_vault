@@ -1,0 +1,1 @@
+*Write after reading 'Building a second brain by tiago forte*

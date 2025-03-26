@@ -1,0 +1,3 @@
+- TeX is a typesetting program.
+- MacTeX contains TeX and many other support files: fonts, styles, and documentation. These files are hidden and are interacted with with a *front end*, e.g. TeXShop.
+- The most barebones version was Plain TeX, which was developed by Donald Knuth. Leslie Lamport later improved on this and created LaTeX.

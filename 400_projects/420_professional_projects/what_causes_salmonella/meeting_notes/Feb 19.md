@@ -1,0 +1,2 @@
+- We can try to host on AWS.
+- We'd rather use a central SaaS. 
