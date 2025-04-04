@@ -37,6 +37,7 @@
 	- nvm
 	- claude
 	- docker
+	- hydrapaper
 
 # Resources
 - (The Ultimate Guide to Mastering Dotfiles](https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles)

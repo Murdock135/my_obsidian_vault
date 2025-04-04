@@ -29,7 +29,6 @@ Machine learning from theory to algorithms (Shai Shalev) (Measure theoretical)
 References
 1. https://chatgpt.com/share/67b378bf-5848-800e-817a-9848c1eda977
 
-
 # Dynamic
 
 # Milestones

@@ -1,0 +1,1 @@
+incorporate these three as pillars into your ikigai

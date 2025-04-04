@@ -24,6 +24,8 @@ Plan: After selling laptop, transfer 730 into Amex.
 Edit (Feb 11): 533 remaining. Create auto payment of 53/mo
 ## GPU:
 - Borrow 600 from Amex and pay at 600/10 = 60/mo
+## Monitor
+MSI monitor 42/mo for 6 months.
 # Samsung tablet
 - Use Affirm to pay the cost (400) at 450/10 = 40/mo
 
@@ -45,16 +47,17 @@ total = monthly
 PC = 533/9 #payin9mo
 tablet = 400/10 #payin10mo
 laptop = 320/5 #payin5mo
+monitor = 42 #payin3mo
 insurance = 1336/(6*2) #payin6mo
 misc_debts = 1000/20 #payin20mo
-total10mo = PC + tablet + laptop + insurance + misc_debts
+total = PC + tablet + laptop + monitor + insurance + misc_debts
 ```
 
 
 # Monthly expenses
 ```math
 rent = 650
-debt = 318.633
+debt = 366.566
 car = 135.5
 mizzou_fees = 127
 total = rent + debt + mizzou_fees

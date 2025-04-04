@@ -7,12 +7,15 @@ status: ongoing
 - [ ] #milestone Generalize merging script
 - [ ] #milestone Create the QA dataset #ongoing
 - [ ] #milestone Complete the langchain course #ongoing
-- [ ]  
+- [ ]  #milestone Build the planner #ongoing
+- [ ] #milestone build the executor
+- [ ] #milestone build the aggregator
 # Tasks
 
 - [x] #task Parse the output from the llm #ongoing ✅ 2025-03-22
-- [ ] #task Use ChatPromptTemplate to format the message so that it is explicit as to what is the human message
-- [ ] #task Add examples to the system message to implement few-shot. #planned
+- [x] #task Use ChatPromptTemplate to format the message so that it is explicit as to what is the human message #planned ✅ 2025-03-29
+- [ ] #task Add examples to the system message to implement few-shot.
+- [ ] #task Extract the json plan #ongoing
 - [ ] #task make a file for output schemas. Make an output schema for handling normal responses. #planned
 - [ ] #task Integrate tools
 	- [ ] #task e2b
@@ -24,7 +27,7 @@ status: ongoing
 	- [ ] #task python REPL
 	- [ ] #task semantic scholar
 	- [ ] #task wikipedia
-- [ ] #task peruse your zotero collections #planned
+- [ ] #task peruse your zotero collections
 - [ ] #task create a sandboxed environment with docker
 - [ ] #task Use Llama index for analysing the data and producing a json file that contains information on the datasets. 
 - [ ] #task implement qa streaming https://js.langchain.com/docs/how_to/qa_streaming/
