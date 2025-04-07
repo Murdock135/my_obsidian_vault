@@ -13,6 +13,7 @@
 - [ ] #book Linear Algebra (Howard Anton)
 - [ ] #book Statistical Inference (Casella)
 - [ ] #book Computational intelligence (Rudolf Kruse)
+- [ ] #book On Neural Differential Equations
 ## Essential Topics
 This is list is ever-growing.
 1. RNNs
