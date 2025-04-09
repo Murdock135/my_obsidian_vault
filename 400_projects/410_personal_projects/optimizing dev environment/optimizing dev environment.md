@@ -39,6 +39,7 @@
 	- docker
 	- i3
 	- ollama
+	- token-count
 
 # Resources
 - (The Ultimate Guide to Mastering Dotfiles](https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles)

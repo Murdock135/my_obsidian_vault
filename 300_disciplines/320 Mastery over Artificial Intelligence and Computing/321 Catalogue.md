@@ -5,6 +5,8 @@
 
 - [ ] #book Art of computer Programming
 - [ ] #docs Bash [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
+- [x] #docs vimtutor
+- [ ] #docs vimtutor sequel
 - [ ] #book https://guide.bash.academy/
 - [ ] #book Deep learning Bible
 - [ ] #book PRML (bishop)
@@ -14,6 +16,11 @@
 - [ ] #book Statistical Inference (Casella)
 - [ ] #book Computational intelligence (Rudolf Kruse)
 - [ ] #book On Neural Differential Equations
+- [ ] #book Computer Systems: A Programmer's Perspective
+- [ ] #book Modern Operating Systems by Tanenbaum
+- [ ] #book [The twelve factor app](https://12factor.net/)
+- [ ] #book Beyond the twelve factor app
+- [ ] Python3 module of the week https://pymotw.com/3/
 ## Essential Topics
 This is list is ever-growing.
 1. RNNs
@@ -23,7 +30,7 @@ This is list is ever-growing.
 5. Deep metric learning
 6. GANs
 7. ResNet
-8. KAN
+8. KAN (Kolmogorov Arnold networks)
 9. Bayesian Neural Net
 10. CNN
 11. C-means
@@ -34,6 +41,10 @@ This is list is ever-growing.
 16. Autoencoder
 17. Bayesian Neural Network
 18. Sparse data methods
+19. SVD
+20. SVM
+21. Eigen decomposition
+22. 
 ## Tools
 ### 1. Dev Tools and Libraries
 19. Docker

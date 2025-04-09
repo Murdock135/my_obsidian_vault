@@ -74,7 +74,7 @@ Disciplines are infinite so long as they are relevant and important.
 > I personally think everyone should consider Well-being and Finance part of their disciplines.
 
 #### Habits
-[[Habits]] are consistent routine actions that make up Life and Disciplines.
+[[600_resources (pkm)/Habits]] are consistent routine actions that make up Life and Disciplines.
 
 If you want to have a life value where you value eating less, you may want to develop a habit of intermittent fasting. Conversely, a habit you may want to get rid of is browsing your fridge when you're actually not hungry.
 

@@ -3,7 +3,7 @@ aliases:
 tags: [info]
 ---
 # Tasks as Habits in Obsidian
-[[Tasks]] can be automated into [[Habits]] using the [Obsidian Tasks](https://github.com/schemar/obsidian-tasks) plugin. By formatting tasks as follows, you can have them repeat at regular intervals.
+[[Tasks]] can be automated into [[600_resources (pkm)/Habits]] using the [Obsidian Tasks](https://github.com/schemar/obsidian-tasks) plugin. By formatting tasks as follows, you can have them repeat at regular intervals.
 
 ## Formatting
 > - #task #hb `<contents>` `[🔁 interval]` `[📅 YYYY-MM-DD]`

@@ -16,15 +16,18 @@ Phase 1: Learning Development tools
 3. Python
 4. Julia
 5. Vim
-Phase 2: Mastering the basics
-6. Read the PRML book (Machine Learning)
-7. Read the Deep learning book by bengio (Deep learning)
-8. Read Understanding Machine learning by Shai Shalev (Computational learning)
-9. Read Statistical learning theory by Vapnik (Statistical learning)
-10. Read On Neural Differential equations (Physics driven deep learning)
-11. Read book on computer vision 
-12. Read book on reinforcement learning
-Phase 3: 
+6. Git
+Phase 2: Computing basics
+7. Read modern operating systems
+Phase 3: Mastering the basics
+8. Read the PRML book (Machine Learning)
+9. Read the Deep learning book by bengio (Deep learning)
+10. Read Understanding Machine learning by Shai Shalev (Computational learning)
+11. Read Statistical learning theory by Vapnik (Statistical learning)
+12. Read On Neural Differential equations (Physics driven deep learning)
+13. Read book on computer vision 
+14. Read book on reinforcement learning
+
 
 # Dynamic
 

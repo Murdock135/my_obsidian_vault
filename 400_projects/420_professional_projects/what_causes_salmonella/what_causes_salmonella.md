@@ -15,8 +15,9 @@ status: ongoing
 - [x] #task Parse the output from the llm #ongoing ✅ 2025-03-22
 - [x] #task Use ChatPromptTemplate to format the message so that it is explicit as to what is the human message #planned ✅ 2025-03-29
 - [ ] #task Add examples to the system message to implement few-shot.
-- [ ] #task Extract the json plan #ongoing
+- [x] #task Extract the json plan #ongoing ✅ 2025-04-07
 - [ ] #task make a file for output schemas. Make an output schema for handling normal responses. #planned
+- [ ] #task Add a loop (max 5 times) to force proper output schema
 - [ ] #task Integrate tools
 	- [ ] #task e2b
 	- [ ] #task filesystem
