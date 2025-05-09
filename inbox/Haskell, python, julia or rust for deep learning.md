@@ -232,13 +232,13 @@ Deep Learning Suitability=f(Expressiveness,Performance,Safety,Composability,De
 
 ### ⚖️ **Compared to Others**
 
-|Language|Strength|Weakness|
-|---|---|---|
-|**Julia**|Expressive, fast, composable|JIT latency, smaller ecosystem|
-|Python|Ecosystem, ease of use|Unsafe, slow, weak abstraction|
-|Rust|Safety, deployment, concurrency|AD is harder, boilerplate|
-|Haskell|Correctness, compositionality|Performance, ecosystem|
-|C++|Performance, control|Unsafe, verbose|
+| Language  | Strength                        | Weakness                       |
+| --------- | ------------------------------- | ------------------------------ |
+| **Julia** | Expressive, fast, composable    | JIT latency, smaller ecosystem |
+| Python    | Ecosystem, ease of use          | Unsafe, slow, weak abstraction |
+| Rust      | Safety, deployment, concurrency | AD is harder, boilerplate      |
+| Haskell   | Correctness, compositionality   | Performance, ecosystem         |
+| C++       | Performance, control            | Unsafe, verbose                |
 
 ---
 

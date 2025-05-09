@@ -1,0 +1,9 @@
+# References
+1. https://www.uber.com/blog/horovod-ray/
+2. https://www.youtube.com/watch?v=4y0TDK3KoCA
+3. https://www.uber.com/blog/michelangelo-machine-learning-platform/
+4. https://www.youtube.com/watch?v=Z3-HddkYgyI
+5. https://github.com/horovod/horovod
+6. https://andrew.gibiansky.com/blog/machine-learning/baidu-allreduce/
+7. https://medium.com/data-science/visual-intuition-on-ring-allreduce-for-distributed-deep-learning-d1f34b4911da
+8. https://studytrails.com/2021/02/10/distributed-machine-learning-2-architecture/#AllReduce_for_Distributed_Machine_Learning

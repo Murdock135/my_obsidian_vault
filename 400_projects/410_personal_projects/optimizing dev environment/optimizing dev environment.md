@@ -7,6 +7,7 @@
 - [ ] #milestone write a readme on how you've set up dotfiles
 - [ ] #task .oh-my-bash 
 - [ ] #milestone set up docker
+- [ ] #milestone learn [git repo manager](https://github.com/hakoerber/git-repo-manager)
 
 # Tasks
 - [x] #task Read UC berkeley's Dataset storage guide #ongoing ✅ 2024-12-20
@@ -40,6 +41,12 @@
 	- i3
 	- ollama
 	- token-count
+	- vimtex
+	- poetry
+	- tree
+	- tabby
+	- ghostty
+	- wget
 
 # Resources
 - (The Ultimate Guide to Mastering Dotfiles](https://www.daytona.io/dotfiles/ultimate-guide-to-dotfiles)

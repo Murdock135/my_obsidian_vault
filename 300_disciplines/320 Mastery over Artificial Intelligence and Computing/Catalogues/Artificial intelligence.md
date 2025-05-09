@@ -1,7 +1,7 @@
 
 # Appendix
 
-## Books and Documentations
+## Learning resources
 
 - [ ] #book Art of computer Programming
 - [ ] #docs Bash [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
@@ -20,7 +20,12 @@
 - [ ] #book Modern Operating Systems by Tanenbaum
 - [ ] #book [The twelve factor app](https://12factor.net/)
 - [ ] #book Beyond the twelve factor app
-- [ ] Python3 module of the week https://pymotw.com/3/
+- [ ] #blog Python3 module of the week https://pymotw.com/3/
+- [ ] #repo [xbeat machine learning repo](https://github.com/xbeat/Machine-Learning)
+- [ ] #docs [Github learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources#online-courses)
+- [ ] #docs [Github get started](https://docs.github.com/en/get-started)
+- [ ] #docs[Huggingface](https://huggingface.co/docs)
+- [ ] #course [Course on Parallel processing by Stanford CS149](https://www.youtube.com/playlist?list=PLoROMvodv4rMp7MTFr4hQsDEcX7Bx6Odp)
 ## Essential Topics
 This is list is ever-growing.
 1. RNNs
@@ -66,7 +71,7 @@ This is list is ever-growing.
 28. [Datahub]([The #1 Open Source Metadata Platform | DataHub](https://datahubproject.io/))
 
 # FAQ
-1. Why not c++ instead of python?\
+1. Why not c++ instead of python?
 	Machine learning is inherently data intensive, and typical ML algorithms are massively data-parallel. Therefore, even when developing new algorithms, high-level mathy languages (like Python, R, [Octave](https://www.quora.com/Why-does-Andrew-Ng%E2%80%99s-Machine-Learning-course-use-Octave-instead-of-R)) can be reasonably fast if you are willing to describe your algorithm in terms of standard operations on matrices and vectors.
 
 	On the other hand, for deeper exploration of fundamental concepts it can be more interesting to treat individual components as _objects_ for which you want to conceptualize and visualize their internal state and interactions. This is a case where C++ may shine. Using C++, of course, means that a compiler will attempt to optimize your execution speed. Additionally, it opens the door to straightforward multi-core execution with [OpenMP](https://en.wikipedia.org/wiki/OpenMP) (or [other available threading approaches](https://stackoverflow.com/q/23258037/86967)).

@@ -898,3 +898,211 @@ These are convenience scripts for running specific tasks (e.g., generating text,
 This structure is modular, scalable, and tailored for your research project. You’ll have clear divisions between functionality (data handling, model interaction, writing logic, validations) so you can experiment without cluttering your main workflow.
 
 If you'd like, I can help you flesh out any specific sub-module or utility!
+
+# Similarity search over vector store
+prompt: i made a vector store-faiss approach to retrieve relevant context from previous summaries. but each scene is too similar in writing to the others. for example, in one scene it starts with "The air in the repurposed server room hung thick...", in another scene "The rain in the repurposed server room was a persistent, sullen grey, mirroring the mood of the machines. Twelve hours...", in another scene "The rain, a persistent, slate-grey smear against the reinforced glass of the observation deck, mirrored the state of Silas’s mind".
+
+response: 
+You're encountering a common issue with **scene similarity** in generative writing tasks, especially when writing styles and structures become repetitive. This repetition often arises because:
+1. **Similar Context Across Scenes**: Reused phrases or settings (e.g., "repurposed server room," "persistent rain") dominate the input context and are reflected in the new scene generation.
+2. **Lack of Variation in Style**: Language models default to generic or predictable prose, especially when lacking creative variety in their prompts or conditioning.
+3. **Reinforcement From Summaries**: If summaries include repetitive descriptions or stylistic elements (e.g., recurring settings or environmental metaphors), these get passed into future prompts and feed a repetitive feedback loop.
+4. **Local Context Overuse**: The vector database may rank overly **similar embeddings** highly, but their similarity results in redundant, unimaginative scene content.
+
+Let’s fix this problem by introducing **diversity and variation** to scene generation — at both the **input level** and the **retrieval/prompt structure**.
+
+---
+
+### **Solutions for Reducing Scene Similarity**
+
+Here are some structured ways to fix the problem and bring originality to each scene:
+
+---
+
+#### **1. Broaden Contextual Retrieval**
+If your vector retrieval consistently pulls overly similar contexts into the prompt (e.g., multiple summaries focusing on "the rain in the repurposed server room"), this narrowly repetitive context biases the output.
+
+##### Fix:
+- **Broaden the Retrieval Scope**:
+  - Instead of focusing solely on **semantic similarity**, combine your **recent summaries** with a few **diverse older summaries** (even if they rank lower in similarity).
+  - Weight context contributions dynamically: Favor **new keywords or themes** over overly repeated ones.
+
+##### How:
+Modify your retrieval system so that it mixes:
+- **Most relevant contexts**: Semantic similarity (relevant to plot and characters).
+- **Distant contexts**: Older summaries to inject diversity.
+- **Disjoint contexts**: Summaries from unrelated settings or events to dynamically shift style.
+
+Example (`retrieve_relevant_scenes` adjusted for diversity):
+```python
+def retrieve_diverse_summaries(plot_point, scene_store, top_k=3, diversify=True):
+    """
+    Retrieve relevant summaries with optional diversification.
+    """
+    plot_embedding = embedding_model.encode(plot_point)  # Embed plot point
+    
+    # Retrieve top-k most relevant scenes
+    relevant_results = scene_store.search(plot_embedding, k=top_k)
+    
+    # Add diversity if needed
+    if diversify:
+        older_contexts = scene_store.search(plot_embedding, k=top_k * 3)[top_k:]  # Fetch older/distant results
+        diverse_results = random.sample(older_contexts, 1)  # Select a random older result
+        
+        # Combine relevant results with diverse ones
+        relevant_results.extend(diverse_results)
+        relevant_results = list({v['metadata']['scene_id']: v for v in relevant_results}.values())  # Deduplicate
+    
+    return relevant_results
+```
+
+This broader context retrieval will break repetitive stylistic loops.
+
+---
+
+#### **2. Inject Higher-Level Themes and Concepts**
+Your model might default to focusing on physical settings (e.g., server rooms or weather) because your given **context focuses narrowly** on scene-by-scene realism. Shift the narrative by emphasizing **higher-level themes**, conflicts, or introspection in your prompts.
+
+##### Example:
+Rather than focusing on the physical description of scenes, steer the generation toward **emotion**, **motivation**, or **character actions**:
+```plaintext
+Instead of:
+"Expand on the following scene where Alice enters a repurposed server room during heavy rain."
+
+Use:
+"Expand on the state of Alice's conflicted emotions as she enters the repurposed server room, grappling with the moral dilemma of betraying her team while the rain batters the glass. Explain how this links to her strained relationship with Zara."
+```
+
+##### How:
+When retrieving summaries, extract unresolved threads, emotional beats, and motivations:
+- **Emotion-driven context**:
+  ```plaintext
+  Refer back to Alice's guilt and how it has been escalating in previous scenes.
+  ```
+- **Conflict-driven context**:
+  ```plaintext
+  Alice's confrontation with Zara is driven by the betrayal in Chapter 3, where the seeds of mistrust were sown.
+  ```
+
+---
+
+#### **3. Increase Prompt Variation via Instructions**
+When constructing your LLM prompt, inject creative or instructive variations to break repetitive writing patterns. For example:
+
+##### Add Specific Instructions:
+Force variation by explicitly instructing the model to:
+1. Use a **different tone** (more abstract, dreamy, or gritty).
+2. Avoid repeating previously mentioned settings or moods.
+3. Disallow generic physical details like weather (rain, grey, etc.).
+
+Example Prompt:
+```plaintext
+Current Plot Point:
+Alice enters Zara's lair in search of the code that would dismantle the Orb's curse.
+
+Instructions for this scene:
+- Avoid describing the weather directly.
+- Focus on Alice’s emotional state (guilt, hope).
+- Include surreal or abstract reflections tied to Alice’s mental state.
+- Avoid using 'repurposed' or 'server room' phrasing.
+```
+
+#### Generate Diverse Opening Lines:
+Deploy small **few-shot examples** to influence how a scene begins:
+```python
+diverse_openings = [
+    "Through the endless shadows of the vaulted corridors, Alice drifted like a wraith chasing the whispers of her guilt.",
+    "The stillness of Zara’s lair was a lie; it thrummed with an unseen energy that seemed to pulse under Alice’s skin.",
+    "The air burned cold, like the calm before a storm. Alice's hands wouldn’t stop trembling."
+]
+prompt = random.choice(diverse_openings) + f"\n{context + plot_point + extra instructions}"
+```
+
+---
+
+#### **4. Use Style-Oriented Modifiers**
+Build stylistic variation directly into your system by specifying literary techniques:
+1. **Metaphorical Writing**:
+   - Guide the model to think beyond literal descriptions:
+   ```plaintext
+   Use metaphors to describe Zara’s lair, likening it to an opera of glass and shadows.
+   ```
+
+2. **Change Writers’ Voice**:
+   - Borrow the voice of a specific author or style (e.g., poetic, minimalist, gothic):
+   ```plaintext
+   Write the scene in the style of Ursula K. Le Guin, emphasizing atmospheric tension and philosophical introspection.
+   ```
+
+3. **Avoid Generic Descriptions**:
+   - Make the prompt clear that certain elements should be excluded:
+   ```plaintext
+   Avoid mentioning the rain or weather unless it directly interacts with Alice's actions.
+   ```
+
+---
+
+#### **5. Cluster and Analyze Similar Scenes**
+If you notice repeated settings or writing patterns (e.g., "repurposed server room"), identify and cluster these patterns using embeddings or keyword analysis.
+
+##### Steps:
+1. Use textual embeddings for **scene similarity checks**:
+   - Compare embeddings of all generated scenes and flag those with high similarity for manual review or automatic remixing.
+2. Add **rules for exclusion**:
+   - Prevent retrieval of overly similar summaries by adding conditions:
+   ```python
+   if "server room" in retrieved_summary:  # Skip over text repeating 'server room'
+       continue
+   ```
+
+---
+
+#### **6. Post-Process Generated Scenes**
+Add a layer of post-processing to evaluate and rewrite repetitive or generic outputs. For example:
+1. Run similarity checks on consecutive scenes.
+2. Rewrite sentences using **paraphrasing models** (e.g., Pegasus or GPT) to vary style:
+   ```python
+   paraphrasing_prompt = f"Rewrite the following to avoid repetition and create a more vivid emotional tone: {generated_scene}"
+   paraphrased_scene = llm(paraphrasing_prompt)
+   ```
+
+---
+
+### **Putting It All Together**
+
+#### Pseudo Workflow to Reduce Scene Similarity:
+1. **Broaden Retrieval**:
+   - Mix relevant (semantic) + older or disjoint contexts.
+2. **Engage High-Level Themes**:
+   - Pull emotional beats, unresolved threads, and avoid hyper-focusing on physical descriptions.
+3. **Ensure Input Variations**:
+   - Use diverse tonal instructions (e.g., abstract, emotional, metaphoric).
+4. **Rewrite Final Outputs**:
+   - Detect and paraphrase repeating prose.
+
+---
+
+### **Why This Works**
+By injecting **diversity at multiple levels** (retrieval, prompt, and generation), you're effectively breaking repetitive patterns in both style and content. It integrates:
+1. Smarter retrieval of **unique relevant contexts**.
+2. Forced **stylistic creativity** and **prompt constraints** to avoid monotony.
+3. Ongoing generation monitoring and editing.
+
+Would you like to integrate specific steps or code modifications into your pipeline? Let me know! 😊
+
+## First solution
+ to remedy my previous concerns of scene, first we shall remove the novel metadata from the scene writer's prompt. we shall   │
+
+│   also NOT instruct it on how to maintain tone and genre. basically, we shall simply give it a short and concise prompt to     │
+
+│   write the scene. this will add diversity. then, we shall ask it to continue writing from the previous context (provided by   │
+
+│   us). Additionally, on the retriever's side, we will change it so that the retriver adds diversity to the relevant context.   │
+
+│   this can be done by mixing older or disjoint contexts with relevant ones. Finally, we will add an assessor language model    │
+
+│   that will sample different parts of the already written portion of the novel (sampling will prevent us from exceeding its    │
+
+│   context window length) and check whether the scenes are still too similar or not. If too similar, the novel will generate    │
+
+│   the current scene again (in a loop that will run a maximum of 3 times).

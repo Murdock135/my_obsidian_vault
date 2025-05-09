@@ -4,11 +4,12 @@ This is a discipline-representation of my professional life. This discipline con
 # Pillars
 Note: ! indicate the relative estimated duration for learning it to a sufficient level.
 1. Computer Architecture !!!
-2. Artificial Intelligence concepts !!!!
-3. Database technologies !
-4. Networking !
-5. Physics driven AI !!!!
-6. Cybersecurity !!!
+2. Operating Systems !!
+3. Artificial Intelligence concepts !!!!
+4. Database technologies !
+5. Networking !
+6. Physics driven AI !!!!
+7. Cybersecurity !!!
 # 2. Roadmap
 Phase 1: Learning Development tools
 1. Bash 
@@ -19,14 +20,19 @@ Phase 1: Learning Development tools
 6. Git
 Phase 2: Computing basics
 7. Read modern operating systems
-Phase 3: Mastering the basics
-8. Read the PRML book (Machine Learning)
-9. Read the Deep learning book by bengio (Deep learning)
-10. Read Understanding Machine learning by Shai Shalev (Computational learning)
-11. Read Statistical learning theory by Vapnik (Statistical learning)
-12. Read On Neural Differential equations (Physics driven deep learning)
-13. Read book on computer vision 
-14. Read book on reinforcement learning
+8. Read Computer architecture
+Phase 3: Mathematical basics
+9. Linear algebra by Howard Anton
+10. Mathematical statistics by Hogg
+11. 
+Phase 4: Mastering the basics
+12. Read the PRML book (Machine Learning)
+13. Read the Deep learning book by bengio (Deep learning)
+14. Read Understanding Machine learning by Shai Shalev (Computational learning)
+15. Read Statistical learning theory by Vapnik (Statistical learning)
+16. Read On Neural Differential equations (Physics driven deep learning)
+17. Read book on computer vision 
+18. Read book on reinforcement learning
 
 
 # Dynamic
@@ -38,8 +44,10 @@ Phase 3: Mastering the basics
 - [ ] #milestone Do a project with Langchain #ongoing 
 - [ ] #milestone Use docker in a project.
 - [ ] #milestone Read bash reference manual #ongoing
-- [ ] #milestone Read vim tutor #ongoing
+- [x] #milestone Read vim tutor #ongoing
 - [ ] #milestone Configure neovim
+- [ ] #milestone Do Huggingface's course #ongoing
+- [ ] #milestone Read Using Github https://docs.github.com/en/get-started/using-github
 
 # Tasks
 - [x] #task Create a roadmap (consider the one made in Notion) ✅ 2025-01-26
