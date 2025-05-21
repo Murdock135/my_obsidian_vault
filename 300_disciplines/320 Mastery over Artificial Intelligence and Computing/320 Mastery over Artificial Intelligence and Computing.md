@@ -10,29 +10,39 @@ Note: ! indicate the relative estimated duration for learning it to a sufficient
 5. Networking !
 6. Physics driven AI !!!!
 7. Cybersecurity !!!
+8. Analysis
+9. Probability theory
+10. Mathematical statistics
+11. 
 # 2. Roadmap
 Phase 1: Learning Development tools
-1. Bash 
+1. Bash (2 weeks)
 2. Docker
-3. Python
-4. Julia
+3. Python (3 months)
+4. Typescript
 5. Vim
-6. Git
-Phase 2: Computing basics
-7. Read modern operating systems
-8. Read Computer architecture
+6. Git (50 pages a week)=50x8 pg/week x weeks -> 2 months
+7. D2L book (1 chapter a week) -> 21 chapters -> 21 weeks (21/4 = 5 months)
+8. Pytorch
+Phase 2: Computing and programming language theory
+9. Read modern operating systems
+10. Read Essentials of programming languages
+11. Read Computer architecture
 Phase 3: Mathematical basics
-9. Linear algebra by Howard Anton
-10. Mathematical statistics by Hogg
-11. 
+12. Linear algebra by Howard Anton
+13. Formal logic
+14. Computational geometry
+15. Mathematical statistics by Hogg
+16. Analysis by William Wade
+17. Probability and Measure
 Phase 4: Mastering the basics
-12. Read the PRML book (Machine Learning)
-13. Read the Deep learning book by bengio (Deep learning)
-14. Read Understanding Machine learning by Shai Shalev (Computational learning)
-15. Read Statistical learning theory by Vapnik (Statistical learning)
-16. Read On Neural Differential equations (Physics driven deep learning)
-17. Read book on computer vision 
-18. Read book on reinforcement learning
+18. Read the PRML book (Machine Learning)
+19. Read the Deep learning book by bengio (Deep learning)
+20. Read Understanding Machine learning by Shai Shalev (Computational learning)
+21. Read Statistical learning theory by Vapnik (Statistical learning)
+22. Read On Neural Differential equations (Physics driven deep learning)
+23. Read book on computer vision 
+24. Read book on reinforcement learning
 
 
 # Dynamic

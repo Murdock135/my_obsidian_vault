@@ -9,6 +9,7 @@ status: ongoing
 - [ ] #milestone Complete the langchain course #ongoing
 - [x]  #milestone Build the planner #ongoing
 - [ ] #milestone build the executor
+- [ ] #milestone build the 
 - [ ] #milestone build the aggregator
 # Tasks
 
@@ -17,8 +18,16 @@ status: ongoing
 - [x] #task Make powerpoint ✅ 2025-05-05
 - [x] #task create a explorer ✅ 2025-05-08
 - [x] #task get structured output ✅ 2025-04-24
-- [ ] #task add {df_heads} to the planner's system message #planned
+- [x] #task add {df_heads} to the planner's system message #planned ✅ 2025-05-08
+- [x] #task make the `pipeline` func with planner, executor #ongoing ✅ 2025-05-14
+- [ ] #task migrate to langgraph #ongoing
+	- [ ] #task planner 
+	- [ ] #task executor
+- [ ] #task make the aggregator 
+- [ ] #task put test queries into config.toml #planned
 - [ ] #task Add examples to the system message to implement few-shot.
+- [ ] #task create a function to return a chatprompttemplate for an agent. Use kwargs to partially format.
+- [ ] #task instead of invoking a new API call, add to the list of messages/ use memory. #planned
 - [x] #task Extract the json plan #ongoing ✅ 2025-04-07
 - [ ] #task Add a loop (max 5 times) to force proper output schema
 - [ ] #task Integrate tools
@@ -47,9 +56,9 @@ status: ongoing
 - [ ] #task Write READMEs for the datasets on huggingface. #discuss
 - [x] #task Read Python's 'Input and Output' tutorial #ongoing ✅ 2025-03-21
 - [ ] #task Write a README.md on how to use data. Explain who to request access from, how to use the data and where to keep results in.
-- [ ] #task Create schematic of langchain system.
-- [ ] #task Read about FAISS
-	- [ ] #task Read the Github wiki
+- [x] #task Create schematic of langchain system. ✅ 2025-05-14
+- [x] #task Read about FAISS ✅ 2025-05-14
+	- [x] #task Read the Github wiki ✅ 2025-05-14
 	- [x] #task Read the Github README.md ✅ 2025-03-17
 - [ ] #task Review and test repo 'salmonella_study'
 	- [x] #task config.py ✅ 2025-03-17
@@ -101,3 +110,6 @@ status: ongoing
 -  https://docs.cloud.llamaindex.ai/llamaparse/getting_started/python
 	- [ ] https://github.com/run-llama/llama_cloud_services/tree/main/examples/parse
 -  https://python.langchain.com/docs/how_to/tool_results_pass_to_model/
+- https://blog.langchain.dev/memory-for-agents/
+- https://docs.smith.langchain.com/evaluation/how_to_guides/compare_experiment_results
+- https://www.youtube.com/watch?v=0i9NzY_b3pg
