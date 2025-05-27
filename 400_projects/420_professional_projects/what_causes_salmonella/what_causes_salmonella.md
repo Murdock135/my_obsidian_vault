@@ -6,7 +6,6 @@ status: ongoing
 - [ ] #milestone Build the agentic system  #ongoing
 - [ ] #milestone Generalize merging script
 - [ ] #milestone Create the QA dataset #ongoing
-- [ ] #milestone Complete the langchain course #ongoing
 - [x]  #milestone Build the planner #ongoing
 - [ ] #milestone build the executor
 - [ ] #milestone build the 
@@ -21,9 +20,11 @@ status: ongoing
 - [x] #task add {df_heads} to the planner's system message #planned ✅ 2025-05-08
 - [x] #task make the `pipeline` func with planner, executor #ongoing ✅ 2025-05-14
 - [ ] #task migrate to langgraph #ongoing
-	- [ ] #task planner 
+	- [x] #task planner ✅ 2025-05-25
 	- [ ] #task executor
 - [ ] #task make the aggregator 
+- [ ] #task the context info such as df_heads, tree should only be retrieved if router routes to planner. implement this #planned
+- [x] #task create a router node that determines if the planner needs to be invoked or if it can answer the user's query itself. #ongoing ✅ 2025-05-25
 - [ ] #task put test queries into config.toml #planned
 - [ ] #task Add examples to the system message to implement few-shot.
 - [ ] #task create a function to return a chatprompttemplate for an agent. Use kwargs to partially format.
@@ -96,6 +97,62 @@ status: ongoing
 	- By fusing datasets into a semantic network, the system creates a unified representation that reveals hidden relationships. The knowledge graph paves the way for advanced querying (e.g., using SPARQL) and allows for richer insights through the exploitation of network structures and connectivity
 - On providing info about data
 	- Unless we use a bug model, we should do it manually because if we iterate over the datasets and provide df.head(), the datasets which are excel files would quickly consume the context window. 
+- Using langgraph
+	- We don't need to add messages to a node unless its the executor because the executor needs to use its own previous executions. 
+	- A candidate structure for the state object
+```python
+	class State(TypedDict):
+		query: str
+		plan: Plan # create 'Plan' object before
+		results: List[StateMessage]
+```
+- Add the system prompts and llms in the [runtime configuration](https://langchain-ai.github.io/langgraph/how-tos/graph-api/#add-runtime-configuration).
+```python
+from langchain.chat_models import init_chat_model
+from langchain_core.runnables import RunnableConfig
+from langgraph.graph import MessagesState
+from langgraph.graph import END, StateGraph, START
+from typing_extensions import TypedDict
+
+
+class ConfigSchema(TypedDict):
+    model: str
+
+
+MODELS = {
+    "anthropic": init_chat_model("anthropic:claude-3-5-haiku-latest"),
+    "openai": init_chat_model("openai:gpt-4.1-mini"),
+}
+
+
+def call_model(state: MessagesState, config: RunnableConfig):
+    model = config["configurable"].get("model", "anthropic")
+    model = MODELS[model]
+    response = model.invoke(state["messages"])
+    return {"messages": [response]}
+
+
+builder = StateGraph(MessagesState, config_schema=ConfigSchema)
+builder.add_node("model", call_model)
+builder.add_edge(START, "model")
+builder.add_edge("model", END)
+
+graph = builder.compile()
+
+# Usage
+input_message = {"role": "user", "content": "hi"}
+# With no configuration, uses default (Anthropic)
+response_1 = graph.invoke({"messages": [input_message]})["messages"][-1]
+# Or, can set OpenAI
+config = {"configurable": {"model": "openai"}}
+response_2 = graph.invoke({"messages": [input_message]}, config=config)["messages"][-1]
+
+print(response_1.response_metadata["model_name"])
+print(response_2.response_metadata["model_name"])
+```
+- Parallelise certain computations e.g. retrieval from various sources.
+	- https://youtu.be/l7lvoiCvcVU?si=TBzufVs9xmojL0Kx
+- Store data context as separate vector stores, which the language models will access based on need.
 # References
 -   [Argonne Researchers Win Gordon Bell Special Prize for Using Language Models to Track Virus Variants - High-Performance Computing News Analysis | insideHPC](https://insidehpc.com/2022/12/argonne-researchers-win-gordon-bell-special-prize-for-using-language-models-to-track-virus-variants/)
 -  [Argonne researchers win Gordon Bell Special Prize for adapting language models to track virus variants | Argonne National Laboratory](https://www.anl.gov/article/argonne-researchers-win-gordon-bell-special-prize-for-adapting-language-models-to-track-virus#:~:text=Scientists%20from%20the%20U.S.%20Department,identifying%20how%20a%20virus%20evolves.)
@@ -113,3 +170,6 @@ status: ongoing
 - https://blog.langchain.dev/memory-for-agents/
 - https://docs.smith.langchain.com/evaluation/how_to_guides/compare_experiment_results
 - https://www.youtube.com/watch?v=0i9NzY_b3pg
+- https://python.langchain.com/docs/how_to/lcel_cheatsheet/#invoke-a-runnable
+- https://www.kaggle.com/code/ksmooi/langgraph-question-answering-system-ai-agent
+- https://youtu.be/l7lvoiCvcVU?si=TBzufVs9xmojL0Kx

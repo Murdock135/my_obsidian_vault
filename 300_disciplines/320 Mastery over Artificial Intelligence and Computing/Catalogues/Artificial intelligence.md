@@ -21,6 +21,7 @@
 - [ ] #book [The twelve factor app](https://12factor.net/)
 - [ ] #book Beyond the twelve factor app
 - [ ] #blog Python3 module of the week https://pymotw.com/3/
+- [ ] #docs https://docs.python.org/3/reference/
 - [ ] #repo [xbeat machine learning repo](https://github.com/xbeat/Machine-Learning)
 - [ ] #docs [Github learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources#online-courses)
 - [ ] #docs [Github get started](https://docs.github.com/en/get-started)

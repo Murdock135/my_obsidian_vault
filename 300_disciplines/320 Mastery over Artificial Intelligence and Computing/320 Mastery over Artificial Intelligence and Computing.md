@@ -14,16 +14,17 @@ Note: ! indicate the relative estimated duration for learning it to a sufficient
 9. Probability theory
 10. Mathematical statistics
 11. 
-# 2. Roadmap
-Phase 1: Learning Development tools
-1. Bash (2 weeks)
-2. Docker
-3. Python (3 months)
-4. Typescript
-5. Vim
-6. Git (50 pages a week)=50x8 pg/week x weeks -> 2 months
-7. D2L book (1 chapter a week) -> 21 chapters -> 21 weeks (21/4 = 5 months)
-8. Pytorch
+# 2. Road-map
+Phase 1a: Primary Development tools (May - September)
+1. Python (3 months)
+2. D2L book (1 chapter a week) -> 21 chapters -> 21 weeks (21/4 = 5 months)
+3. Bash (2 weeks)
+Phase 1b: Secondary development tools
+4. Git (50 pages a week)=50x8 pg/week x weeks -> 2 months
+5. Docker
+6. typescript
+7. vim
+8. PyTorch
 Phase 2: Computing and programming language theory
 9. Read modern operating systems
 10. Read Essentials of programming languages
@@ -43,8 +44,6 @@ Phase 4: Mastering the basics
 22. Read On Neural Differential equations (Physics driven deep learning)
 23. Read book on computer vision 
 24. Read book on reinforcement learning
-
-
 # Dynamic
 
 # Milestones
@@ -64,11 +63,11 @@ Phase 4: Mastering the basics
 - [x] #tasks Watch Andrej Karpathy's video on LLMs. ✅ 2025-02-17
 - [ ] #task Incorporate roadmaps for rest of the pillars.
 - [ ] #task Create a reference sheet for fuzzy set and fuzzy inference.
-- [ ] #task Do a Neural Net project
 - [ ] #task Create a reference sheet for MLP.
 - [ ] #task Create a reference sheet for CNNs.
 - [ ] #task Learn about pdb (python debugger) (30m) #planned
 - [ ] #task Peruse awesome list and import things #planned
+
 
 # Archived Roadmap
 The following roadmap sets targets to learn about previously discovered or invented concepts which will hopefully help me invent/discover/advance something related to 'artificial intelligence and computing'.
